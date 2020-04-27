@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/osterialavignetta/static/css/main.d2167c61.chunk.css",
+    "main.css": "/osterialavignetta/static/css/main.507c66fe.chunk.css",
     "main.js": "/osterialavignetta/static/js/main.51b71d79.chunk.js",
     "main.js.map": "/osterialavignetta/static/js/main.51b71d79.chunk.js.map",
     "runtime-main.js": "/osterialavignetta/static/js/runtime-main.9162338f.js",
@@ -8,9 +8,9 @@
     "static/js/2.403e060f.chunk.js": "/osterialavignetta/static/js/2.403e060f.chunk.js",
     "static/js/2.403e060f.chunk.js.map": "/osterialavignetta/static/js/2.403e060f.chunk.js.map",
     "index.html": "/osterialavignetta/index.html",
-    "precache-manifest.a0e95cc4e7c21189a2fbacfaacae710d.js": "/osterialavignetta/precache-manifest.a0e95cc4e7c21189a2fbacfaacae710d.js",
+    "precache-manifest.f9bd3b96a1ad6a127adec53db058ceef.js": "/osterialavignetta/precache-manifest.f9bd3b96a1ad6a127adec53db058ceef.js",
     "service-worker.js": "/osterialavignetta/service-worker.js",
-    "static/css/main.d2167c61.chunk.css.map": "/osterialavignetta/static/css/main.d2167c61.chunk.css.map",
+    "static/css/main.507c66fe.chunk.css.map": "/osterialavignetta/static/css/main.507c66fe.chunk.css.map",
     "static/js/2.403e060f.chunk.js.LICENSE.txt": "/osterialavignetta/static/js/2.403e060f.chunk.js.LICENSE.txt",
     "static/media/chef-1.png": "/osterialavignetta/static/media/chef-1.173ca207.png",
     "static/media/chef-2.png": "/osterialavignetta/static/media/chef-2.80f600b8.png",
@@ -36,7 +36,7 @@
   "entrypoints": [
     "static/js/runtime-main.9162338f.js",
     "static/js/2.403e060f.chunk.js",
-    "static/css/main.d2167c61.chunk.css",
+    "static/css/main.507c66fe.chunk.css",
     "static/js/main.51b71d79.chunk.js"
   ]
 }

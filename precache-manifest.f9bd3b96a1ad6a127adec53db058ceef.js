@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "99647140a1f4a6390157e72042e846e4",
+    "revision": "a435d6f8656d212ee98c421851ca88f0",
     "url": "/osterialavignetta/index.html"
   },
   {
-    "revision": "9f5f13cecb45fb376bf5",
-    "url": "/osterialavignetta/static/css/main.d2167c61.chunk.css"
+    "revision": "df11a85d7b2ace04c9d8",
+    "url": "/osterialavignetta/static/css/main.507c66fe.chunk.css"
   },
   {
     "revision": "0a09daa63814c53ce8e5",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/osterialavignetta/static/js/2.403e060f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9f5f13cecb45fb376bf5",
+    "revision": "df11a85d7b2ace04c9d8",
     "url": "/osterialavignetta/static/js/main.51b71d79.chunk.js"
   },
   {
