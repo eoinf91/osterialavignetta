@@ -1,0 +1,148 @@
+@import '../colors.styles.scss';
+
+.welcome{
+    background-color: rgba(255,246,230,0.7);
+    background-image: url('../../assets/food_bg.svg');
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    margin: 20px 0px;
+    padding: 20px;
+    box-sizing: border-box;
+
+    .welcome-container{
+        display: flex;
+        flex-direction: column;
+
+        .welcome-content{
+            
+            h3{
+                font-family: 'Mightype Script', serif;
+                font-size: $headingThreeSmall;
+                font-weight: normal;
+                color: $OsteriaGrey;
+                margin: 20px auto 10px;
+            }
+
+            p{
+                font-family: 'IBM Plex Sans', sans-serif;
+                font-weight: 300;
+                font-style: italic;
+                color: $OsteriaGrey;
+                font-size: 14px;
+                line-height: 22px;
+            }
+        }
+
+        .welcome-images{
+            position: relative;
+
+            img{
+                height: 200px;
+                display: block;
+                position: relative;
+                margin: 40px auto 0px;
+
+                &:last-of-type{
+                    position: absolute;
+                    top: -20px;
+                    right: 70px;
+                    width: 100px;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .welcome{
+        background-size: 400px;
+        position: relative;
+
+        .welcome-container{
+            flex-direction: row;
+            width: 75%;
+            margin: 10px auto;
+            align-items: center;
+            justify-content: space-between;
+
+            .welcome-content{
+                width: calc(100% / 2);
+            }
+
+            .welcome-images{
+                width: auto;
+
+                img{
+                    
+                    &:last-of-type{
+                        right: -20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1366px){
+    .welcome{
+        margin-top: 50px;
+
+        &:before{
+            content: '';
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background-image: url('../../assets/food_bg.svg');
+            background-position: top right;
+            background-repeat: no-repeat;
+            background-size: 400px;
+            transform: rotate(180deg);
+            left: 0px;
+            top: 0px;
+            bottom: 0px;
+            right: 0px;
+        }
+
+        .welcome-container{
+            width: 650px;
+
+            .welcome-content{
+                width: 350px;
+
+                h3{
+                    font-size: $headingThreeLarge;
+                }
+
+                p{
+                    font-size: 18px;
+                    line-height: 26px;
+                }
+            }
+
+            .welcome-images{
+
+                img{
+                    width: 250px;
+                    height: auto;
+
+                    &:last-of-type{
+                        width: 150px;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1920px){
+    .welcome{
+        background-size: 500px;
+
+        &:before{
+            background-size: 500px;
+        }
+    }
+}

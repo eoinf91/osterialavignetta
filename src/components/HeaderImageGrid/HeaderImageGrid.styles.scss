@@ -1,0 +1,113 @@
+.header-image-grid{
+    display: grid;
+    width: 100vw;
+    margin: 10px auto;
+    height: auto;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100px 100px 100px 100px;
+    column-gap: 2px;
+    row-gap: 2px;
+
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+
+        &:first-of-type{
+            grid-column-start: 1;
+            grid-column-end: 1;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+
+        &:nth-of-type(6){
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 4;
+            grid-row-end: 5;
+        }
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .header-image-grid{
+        display: grid;
+        width: 100%;
+        margin: 20px auto;
+        padding: 0px 40px;
+        box-sizing: border-box;
+        height: 300px;
+        grid-template-columns: calc(100% / 6);
+        grid-template-rows: 50% 50%;
+        column-gap: 5px;
+        row-gap: 5px;
+    
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+    
+            &:first-of-type{
+                grid-column-start: 1;
+                grid-column-end: 3;
+                grid-row-start: 1;
+                grid-row-end: 4;
+            }
+
+            &:nth-of-type(2){
+                grid-column-start: 3;
+                grid-column-end: 5;
+                grid-row-start: 1;
+                grid-row-end: 2;
+            }
+
+            &:nth-of-type(3){
+                grid-column-start: 5;
+                grid-column-end: 6;
+                grid-row-start: 1;
+                grid-row-end: 2;
+            }
+    
+            &:nth-of-type(4){
+                grid-column-start: 6;
+                grid-column-end: 7;
+                grid-row-start: 1;
+                grid-row-end: 4;
+            }
+
+            &:nth-of-type(5){
+                grid-column-start: 3;
+                grid-column-end: 5;
+                grid-row-start: 2;
+                grid-row-end: 4;
+            }
+
+            &:nth-of-type(6){
+                grid-column-start: 5;
+                grid-column-end: 6;
+                grid-row-start: 2;
+                grid-row-end: 4;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1366px){
+    .header-image-grid{
+        width: 1200px;
+        margin: 0px auto;
+        height: 350px;
+    }
+}
+
+@media only screen and (min-width: 1920px){
+    .header-image-grid{
+        display: grid;
+        width: 1480px;
+        margin: 20px auto;
+        height: 600px;
+        column-gap: 5px;
+        row-gap: 5px;
+    }
+}

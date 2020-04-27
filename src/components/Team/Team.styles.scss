@@ -1,0 +1,85 @@
+@import '../colors.styles.scss';
+
+.team{
+    margin-top: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+
+    .team-images-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        .team-image{
+            margin: 20px 0px;
+            width: calc(100% / 2 - 5px);
+
+            img{
+                width: 100%;
+                height: auto;
+                margin-bottom: 5px;
+            }
+
+            h3{
+                color: $OsteriaGold;
+                font-size: 20px;
+                margin:  0px;
+            }
+
+            h4{
+                color: $OsteriaGrey;
+                font-family: 'IBM Plex Sans', sans-serif;
+                font-weight: 200;
+                font-size: 20px;
+                line-height: 28px;
+                margin: 0px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .team{
+        padding: 20px 40px;
+
+        .team-images-container{
+
+            .team-image{
+                width: calc(100% / 4 - 5px);
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1366px){
+    .team{
+        width: 1200px;
+        margin: 30px auto;
+
+        h3{
+            width: 75%;
+            margin: 20px auto 10px;
+        }
+
+        p{
+            width: 75%;
+            margin: 20px auto 10px;
+        }
+
+        .team-images-container{
+
+            .team-image{
+                width: calc(100% / 4 - 10px);
+
+                img{
+                    margin-bottom: 20px;
+                }
+
+                h3, h4{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

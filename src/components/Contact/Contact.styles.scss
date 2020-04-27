@@ -1,0 +1,48 @@
+@import '../colors.styles.scss';
+
+.contact{
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 20px auto;
+
+    p{
+        color: $OsteriaGrey;
+    }
+
+    a{
+        display: inline-block;
+        text-decoration: none;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        background-color: $OsteriaGold;
+        color: #ffffff;
+        padding: 10px 30px;
+        box-sizing: border-box;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .contact{
+        padding: 20px 40px;
+    }
+}
+
+@media only screen and (min-width: 1366px){
+    .contact{
+        width: 1000px;
+        margin: 10px auto;
+
+        p{
+            font-size: 18px;
+            line-height: 26px;
+        }
+
+        a{
+            font-size: 18px;
+            line-height: 26px;
+        }
+    }
+}

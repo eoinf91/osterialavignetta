@@ -1,0 +1,48 @@
+@import './components/colors.styles.scss';
+
+@font-face {
+  font-family: 'Mightype Script';
+  src: local('Mightype Script'), url('./assets/fonts/mightype_script.otf') format('opentype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,600;1,300&display=swap');
+
+/* Colours */
+$OsteriaGrey: #5D5D5D;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h3{
+  font-family: 'Mightype Script', serif;
+  font-size: $headingThreeSmall;
+  font-weight: normal;
+  color: $OsteriaGrey;
+  margin: 20px auto 10px;
+}
+
+p{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+@media only screen and (min-width: 1366px){
+  h3{
+    font-size: $headingThreeLarge;
+  }
+}

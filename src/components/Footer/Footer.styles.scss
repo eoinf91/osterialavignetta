@@ -1,0 +1,121 @@
+@import '../colors.styles.scss';
+
+footer{
+    background-color: $OsteriaGrey;
+    padding: 20px;
+    box-sizing: border-box;
+
+    .info{
+        
+        .contact{
+            padding: 10px;
+            margin: 0px 0px 30px;
+        }
+
+        h3{
+            color: $OsteriaLightestGrey;
+            font-family: 'IBM Plex Sans', sans-serif;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 28px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin: 0px 0px 20px;
+        }
+
+        a, p{
+            background-color: transparent;
+            color: $OsteriaLightGrey;
+            margin: 0px 0px 10px;
+            padding: 0px;
+            font-weight: 600;
+        }
+    }
+
+    .sign-off{
+        margin: 20px 0px 0px;
+        padding: 20px;
+        box-sizing: border-box;
+        border-top: 1px solid $OsteriaYellow;
+
+        img{
+            width: 250px;
+            display: block;
+            margin: auto;
+        }
+
+        .social-icons{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 80px;
+            margin: 20px auto;
+
+            a{
+                padding: 0px;
+                margin: 0px;
+                display: block;
+
+                img{
+                    height: 30px;
+                    width: auto;
+                    margin: 0px;
+                    padding: 0px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px){
+    footer{
+        padding: 20px 40px;
+
+        .info{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            text-align: left;
+
+            .contact{
+                width: 350px;
+            }
+
+            .instagram{
+                width: 250px;
+            }
+        }
+
+        .sign-off{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+            padding: 20px 0px;
+
+            img{
+                margin: 0px;
+            }
+
+            .social-icons{
+                margin: 0px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1366px){
+    footer{
+
+        .info{
+
+            .contact{
+                width: 600px;
+            }
+
+            .instagram{
+                width: 400px;
+            }
+        }
+    }
+}

@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './index.scss';
+import App from './containers/App';
 import * as serviceWorker from './serviceWorker';
+
+// Font
+import './assets/fonts/mightype_script.otf';
 
 ReactDOM.render(
   <React.StrictMode>
