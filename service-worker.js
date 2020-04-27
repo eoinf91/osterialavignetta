@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/osterialavignetta/precache-manifest.527b821920655986642a0a78e973ab0a.js"
+  "/osterialavignetta/precache-manifest.a0e95cc4e7c21189a2fbacfaacae710d.js"
 );
 
 self.addEventListener('message', (event) => {

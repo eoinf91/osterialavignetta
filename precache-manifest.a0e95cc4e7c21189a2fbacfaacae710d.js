@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4cc09aa4c1367e2dadfe2b90321a10f3",
+    "revision": "99647140a1f4a6390157e72042e846e4",
     "url": "/osterialavignetta/index.html"
   },
   {
-    "revision": "0b667738eaa7858f9df4",
+    "revision": "9f5f13cecb45fb376bf5",
     "url": "/osterialavignetta/static/css/main.d2167c61.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/osterialavignetta/static/js/2.403e060f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0b667738eaa7858f9df4",
-    "url": "/osterialavignetta/static/js/main.afa56005.chunk.js"
+    "revision": "9f5f13cecb45fb376bf5",
+    "url": "/osterialavignetta/static/js/main.51b71d79.chunk.js"
   },
   {
     "revision": "77d9f3051b1b0d1fa4fd",
@@ -84,8 +84,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/osterialavignetta/static/media/osteria_grapes_grey.3886ad8d.svg"
   },
   {
-    "revision": "3306825f488eb1e1a170d7d9c14c3acb",
-    "url": "/osterialavignetta/static/media/osteria_logo_yellow.3306825f.svg"
+    "revision": "9781386cabedcd5926faf3f54ab20872",
+    "url": "/osterialavignetta/static/media/osteria_logo_yellow.9781386c.svg"
   },
   {
     "revision": "414bcb0d29dafe9d92b737bda86de08d",

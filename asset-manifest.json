@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/osterialavignetta/static/css/main.d2167c61.chunk.css",
-    "main.js": "/osterialavignetta/static/js/main.afa56005.chunk.js",
-    "main.js.map": "/osterialavignetta/static/js/main.afa56005.chunk.js.map",
+    "main.js": "/osterialavignetta/static/js/main.51b71d79.chunk.js",
+    "main.js.map": "/osterialavignetta/static/js/main.51b71d79.chunk.js.map",
     "runtime-main.js": "/osterialavignetta/static/js/runtime-main.9162338f.js",
     "runtime-main.js.map": "/osterialavignetta/static/js/runtime-main.9162338f.js.map",
     "static/js/2.403e060f.chunk.js": "/osterialavignetta/static/js/2.403e060f.chunk.js",
     "static/js/2.403e060f.chunk.js.map": "/osterialavignetta/static/js/2.403e060f.chunk.js.map",
     "index.html": "/osterialavignetta/index.html",
-    "precache-manifest.527b821920655986642a0a78e973ab0a.js": "/osterialavignetta/precache-manifest.527b821920655986642a0a78e973ab0a.js",
+    "precache-manifest.a0e95cc4e7c21189a2fbacfaacae710d.js": "/osterialavignetta/precache-manifest.a0e95cc4e7c21189a2fbacfaacae710d.js",
     "service-worker.js": "/osterialavignetta/service-worker.js",
     "static/css/main.d2167c61.chunk.css.map": "/osterialavignetta/static/css/main.d2167c61.chunk.css.map",
     "static/js/2.403e060f.chunk.js.LICENSE.txt": "/osterialavignetta/static/js/2.403e060f.chunk.js.LICENSE.txt",
@@ -27,7 +27,7 @@
     "static/media/meat_2@2x.jpg": "/osterialavignetta/static/media/meat_2@2x.e994e758.jpg",
     "static/media/mightype_script.otf": "/osterialavignetta/static/media/mightype_script.b0bf77f6.otf",
     "static/media/osteria_grapes_grey.svg": "/osterialavignetta/static/media/osteria_grapes_grey.3886ad8d.svg",
-    "static/media/osteria_logo_yellow.svg": "/osterialavignetta/static/media/osteria_logo_yellow.3306825f.svg",
+    "static/media/osteria_logo_yellow.svg": "/osterialavignetta/static/media/osteria_logo_yellow.9781386c.svg",
     "static/media/ravioli@2x.jpg": "/osterialavignetta/static/media/ravioli@2x.414bcb0d.jpg",
     "static/media/risotto@2x.jpg": "/osterialavignetta/static/media/risotto@2x.57312629.jpg",
     "static/media/risotto_cut.png": "/osterialavignetta/static/media/risotto_cut.ae515300.png",
@@ -37,6 +37,6 @@
     "static/js/runtime-main.9162338f.js",
     "static/js/2.403e060f.chunk.js",
     "static/css/main.d2167c61.chunk.css",
-    "static/js/main.afa56005.chunk.js"
+    "static/js/main.51b71d79.chunk.js"
   ]
 }
